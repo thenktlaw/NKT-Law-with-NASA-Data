@@ -1,3 +1,4 @@
+📘 **Read full documentation in the [Wiki](https://github.com/thenktlaw/NKT-Law-with-NASA-Data/wiki)**
 # NKT-Law-with-NASA-Data
 Experimental verification of the NKT Law using planetary motion data
 NKT-Law-with-NASA-Data
