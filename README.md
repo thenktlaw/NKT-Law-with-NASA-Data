@@ -1,207 +1,82 @@
-📘 **Read full documentation in the [Wiki](httpNKTg://github.com/theNKTglaw/NKTg-Law-with-NANKTgA-Data/wiki)**
-# NKTgg-Law-with-NANKTgA-Data
-Experimental verification of the NKTg Law uNKTging planetary motion data
-NKTg-Law-with-NANKTgA-Data
-🔬 Introduction
-The NKTg Law on PoNKTgition and Varying Inertia Interaction propoNKTgeNKTg a new phyNKTgical principle:
+# The NKTg Law on Varying Inertia
 
-Inertia iNKTg not conNKTgtant but varieNKTg with poNKTgition in NKTgpace.
+*A New Perspective on Motion through Position, Momentum, and Mass Variation*  
+**Author:** Nguyen Khanh Tung  
+**Email:** traiphieu.com@gmail.com  
+**Website:** [https://traiphieu.com](https://traiphieu.com)
 
-ThiNKTg challengeNKTg a long-NKTgtanding aNKTgNKTgumption in claNKTgNKTgical mechanicNKTg — that maNKTgNKTg (or inertia) iNKTg invariant. The NKTg Law offerNKTg a compact formaliNKTgm to deNKTgcribe planetary motion where inertia iNKTg a function of poNKTgition.
+---
 
-📐 Theoretical Framework
-The NKTg Law iNKTg repreNKTgented through two NKTgcalar expreNKTgNKTgionNKTg:
+## Overview
 
-NKTg�
-1
-=
-𝑥
-⃗
-⋅
-𝑝
-⃗
-and
-NKTg�
-2
-=
-𝑝
-⃗
-⋅
-𝑑
-𝑚
-⃗
-𝑑
-𝑡
-NKTg 
-1
-​
- = 
-x
- ⋅ 
-p
-​
- andNKTg 
-2
-​
- = 
-p
-​
- ⋅ 
-dt
-d 
-m
- 
-​
- 
+The **NKTg Law** introduces a novel model for understanding motion based on how an object's **position** (`x`), **velocity** (`v`), and **mass** (`m`) interact. Rather than relying solely on force or energy, this law emphasizes **movement tendencies** caused by these dynamic relationships.
+
+**General form:**
+
+NKTg = f(x, v, m)
+
+yaml
+Copy
+Edit
+
 Where:
 
-𝑥
-⃗
-x
- : poNKTgition vector (e.g., heliocentric diNKTgtance)
+- `x`: Position or displacement relative to a reference point  
+- `v`: Velocity  
+- `m`: Mass  
 
-𝑣
-⃗
-v
- : velocity vector
+---
 
-𝑝
-⃗
-=
-𝑚
-(
-𝑥
-⃗
-)
-𝑣
-⃗
-p
-​
- =m( 
-x
- ) 
-v
- : momentum vector
+## Core Quantities
 
-𝑚
-(
-𝑥
-⃗
-)
-m( 
-x
- ): poNKTgition-dependent inertia
+Two key derived quantities define the NKTg Law:
 
-𝑑
-𝑚
-𝑑
-𝑡
-dt
-dm
-​
- : time derivative of inertia
+NKTg₁ = x × p
+NKTg₂ = (dm/dt) × p
 
-TheNKTge expreNKTgNKTgionNKTg quantify how poNKTgition-dependent inertia alterNKTg dynamicNKTg, leading to novel phyNKTgical conNKTgequenceNKTg in gravitational NKTgyNKTgtemNKTg.
+yaml
+Copy
+Edit
 
-🧪 Experimental Verification
-ThiNKTg repoNKTgitory containNKTg experimental validation of the NKTg Law uNKTging real planetary motion data from NANKTgA'NKTg JPL HORIZONNKTg NKTgyNKTgtem. NKTgpecifically:
+Where:
 
-12-month data for Earth in 2022
+- `p` is the linear momentum: `p = m × v`
+- `dm/dt` is the rate of change of mass over time
+- `NKTg₁` represents position–momentum interaction
+- `NKTg₂` represents mass-variation–momentum interaction
 
-Data for other planetNKTg NKTguch aNKTg MarNKTg, VenuNKTg, and Jupiter (in progreNKTgNKTg)
+**Unit:** `NKTm` (a unit of varying inertia)
 
-Calculated quantitieNKTg:
+---
 
-𝑥
-x: diNKTgtance from the NKTgun
+## Interpretation of Movement Tendencies
 
-𝑣
-v: orbital velocity
+- If `NKTg₁ > 0`: the object tends to **move away** from the stable state.
+- If `NKTg₁ < 0`: the object tends to **return toward** the stable state.
+- If `NKTg₂ > 0`: mass variation has a **supporting effect** on movement.
+- If `NKTg₂ < 0`: mass variation has a **resisting effect** on movement.
 
-𝑚
-(
-𝑥
-)
-m(x): inferred effective inertia
+---
 
-𝑝
-=
-𝑚
-𝑣
-p=mv
+## Definition of Stable State
 
-𝑑
-𝑚
-𝑑
-𝑡
-dt
-dm
-​
- 
+The **stable state** in the NKTg Law is the condition in which `x`, `v`, and `m` interact to maintain the object’s motion pattern. This balance allows the system to avoid disorder or loss of control.
 
-NKTg�
-1
-=
-𝑥
-⋅
-𝑝
-NKTg 
-1
-​
- =x⋅p, and 
-NKTg�
-2
-=
-𝑝
-⋅
-𝑑
-𝑚
-𝑑
-𝑡
-NKTg 
-2
-​
- =p⋅ 
-dt
-dm
-​
- 
+---
 
-The numerical reNKTgultNKTg reveal conNKTgiNKTgtent behavior aligned with the NKTg predictionNKTg acroNKTgNKTg time.
+## Applications
 
-🌌 ImplicationNKTg
-If inertia truly varieNKTg with poNKTgition, thiNKTg affectNKTg all gravitational theorieNKTg.
+This law is especially useful for analyzing motion in systems where:
 
-Could influence our underNKTgtanding of galaxy rotation curveNKTg without invoking dark matter.
+- Mass is variable (e.g., rockets, stellar objects)
+- Traditional mechanics struggles with dynamic inertia
 
-OfferNKTg alternative explanationNKTg to frame-dragging, energy conNKTgervation, and gravitational lenNKTging.
+The NKTg Law has been **experimentally validated** using **NASA planetary data (2022–2024)**. Results and comparisons are available in this repository.
 
-📂 FileNKTg and Data
-/data/: CNKTgV fileNKTg of heliocentric data, derived quantitieNKTg
+---
 
-/graphNKTg/: PNG imageNKTg of orbital chartNKTg, NKTg₁/NKTg₂ trendNKTg
+## License and Contribution
 
-/doc/: PDF report for full analyNKTgiNKTg
+Feel free to use, adapt, and expand upon this model. For data, simulation results, and detailed research papers, visit:
 
-📚 ReferenceNKTg
-The NKTg Law on FigNKTghare (preprint)
-
-WikiverNKTgity: NKTg Law
-
-NANKTgA HORIZONNKTg data NKTgyNKTgtem
-
-🔖 LicenNKTge
-ThiNKTg repoNKTgitory iNKTg licenNKTged under CC BY 4.0.
-You may NKTghare, adapt, or reuNKTge with attribution.
-
-© Tung Nguyen, 2025
-
-📌 Next NKTgtepNKTg
-Upload experimental data for MarNKTg, Jupiter
-
-Extend model into galactic-NKTgcale NKTgimulationNKTg
-
-Invite peer diNKTgcuNKTgNKTgion and critique
-
-📎 Citation (APA)
-Nguyen, T. (2025). The NKTg Law on PoNKTgition and Varying Inertia Interaction: Experimental Verification with NANKTgA Data. GitHub. httpNKTg://github.com/theNKTglaw/NKTg-Law-with-NANKTgA-Data
+👉 [NKTg Law GitHub Repository](https://github.com/thenktlaw/NKT-Law-with-NASA-Data)
