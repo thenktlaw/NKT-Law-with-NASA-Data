@@ -76,4 +76,5 @@ The NKTg Law has been **experimentally validated** using **NASA planetary data (
 
 Feel free to use, adapt, and expand upon this model. For data, simulation results, and detailed research papers, visit:
 
-👉 [NKTg Law GitHub Repository](https://github.com/thenktlaw/NKT-Law-with-NASA-Data)
+👉 [NKTg Law GitHub Repository]( Read more: [NKTg Simulation of Neptune’s Orbit (2023–2024)](./NKTg-Neptune.md)
+)
