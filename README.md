@@ -15,9 +15,6 @@ The **NKTg Law** introduces a novel model for understanding motion based on how 
 
 NKTg = f(x, v, m)
 
-yaml
-Copy
-Edit
 
 Where:
 
